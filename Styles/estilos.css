@@ -1,0 +1,172 @@
+body{
+    background:  url('../images/background.png'); 
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 4em;
+}
+
+#fondoContenido{
+    background-color: white;
+    margin: 0 auto;
+    height: 1100px;
+    width: 920px;
+    padding: 0.5em 0.8em 0em 0.8em;
+}
+
+#header{
+    width: 880px;
+    height: 250px;
+    background:  url('../images/banner.jpg') ; 
+    margin: 0 auto;
+    padding: 0;
+}
+
+#name{
+    color: green;
+    padding-top: 0.5em;
+    padding-left: 0.8em;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+#nav{
+    background-color: #488000;
+    margin: 0 auto;
+    width: 880px;
+    height: 50px;
+}
+
+.navwrapper {
+    display: inline-flex;
+    border-style: solid;
+    border-left: 0em;
+    border-top: 0em;
+    border-bottom: 0em;
+    border-width: 3px;
+    border-color: white;  
+    width: 13%;
+    height: 50px;
+    padding-top: 0.8em;
+}
+
+
+.navwrapper a {
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    margin: 0 auto;
+    
+}
+
+.navwrapper a:hover{
+    text-decoration: underline;
+}
+
+.contactus{
+    border-right: 0em;
+}
+
+#left-side{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#noticias{
+    width: 200px;
+    margin-left: 4em;
+    margin-right: 1em;
+    margin-bottom: 0em;
+}
+
+#noticias h4{
+    color: green;
+    font-weight: bold;
+}
+
+.infoImage{
+    float:left;
+}
+
+#noticias p{
+    text-align: justify;
+}
+#relevantes{
+    width: 200px;
+    margin-left: 4em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+#relevantes p{
+    text-align: justify;
+}
+
+#right-side{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -695px;
+
+}
+
+#articuloPrinicipal{
+    width: 600px;
+    height: 500px;
+    margin-right: 17px;
+}
+
+#articuloPrinicipal h2{
+    font-weight: bolder;
+}
+
+#articuloPrinicipal h3{
+    text-align: justify;
+    color: #488000;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#articuloPrinicipal p{
+    text-align: justify;
+}
+
+.imageRana{
+    float:left;
+    margin-right: 15px;
+}
+
+#footer{
+    margin: 0 auto;
+    background-color: #488000;
+    width: 880px;
+    height: 35px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.navwrapperFooter {
+    border-style: solid;
+    border-left: 0em;
+    border-top: 0em;
+    border-bottom: 0em;
+    border-width: 3px;
+    border-color: white;  
+    height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.navwrapperFooter a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.galeria{
+    border-right: 0em;
+}
